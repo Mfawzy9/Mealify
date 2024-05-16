@@ -1,0 +1,570 @@
+
+
+
+
+
+
+
+@media screen and (max-width : 575px){
+
+    /* navbar */
+
+    nav .container{
+        padding: unset;
+    }
+
+    nav .nav-links .menu{
+        display: block;
+        width: 100%;
+    }
+
+    nav .nav-links .menu i{
+        font-size: 30px;
+    }
+
+    nav .container .dark-mode{
+        display: none;
+    }
+
+    nav .container .nav-links ul{
+        display: none;
+        gap: 30px;
+    }
+
+    nav .container .nav-links{
+        position: relative;
+    }
+
+    nav .nav-links:hover ul{
+        position: absolute;
+        right: -48px;
+        top: 100%;
+        text-align: center;
+        background-color: #171717;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* sec1-home */
+
+    .sec1-home .container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+        padding: 15px 0;
+        margin-top: 89.2px;
+    }
+
+    .sec1-home .container .sec1-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec1-home .container .sec1-content .content-btns {
+        flex-direction: column;
+    }
+
+    .sec1-home .container .sec1-img {
+        width: 100%;
+    }
+
+    /* sec2-chefs */
+
+    .sec2-chefs .sec2-cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    /* sec3-gallery */
+
+    .sec3-gallery .gallery-photos {
+        height: unset;
+    }
+
+    .sec3-gallery .gallery-photos .photo {
+        width: unset;
+    }
+
+    /* sec4-contact */
+
+    .sec4-contact .details {
+        flex-direction: column;
+    }
+
+    .sec4-contact .details .address,
+    .sec4-contact .details .email,
+    .sec4-contact .details .phone,
+    .sec4-contact .details .opening-hours{
+        width: 100%;
+    }
+
+    .sec4-contact .details .address .address-informations,
+    .sec4-contact .details .email .email-informations,
+    .sec4-contact .details .phone .phone-informations,
+    .sec4-contact .details .opening-hours .opening-informations{
+        width: 65%;
+    }
+
+    .sec4-contact form .name-email {
+        flex-direction: column;
+    }
+
+    .sec4-contact form .name-email input:first-child,
+    .sec4-contact form .name-email input:last-child {
+        width: 100%;
+    }
+
+    /* footer */
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .about {
+        width: 100%;
+    }
+
+    footer .subscribe {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer .subscribe .subscribe-form{
+        flex-direction: column;
+    }
+
+    footer .subscribe .subscribe-form input {
+        width: 100%;
+    }
+
+    footer .subscribe .subscribe-form button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    footer .contact-ways {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 575px) and (max-width : 767px){
+
+    /* navbar */
+    nav .nav-links .menu{
+        display: block;
+        width: 100%;
+    }
+
+    nav .nav-links .menu i{
+        font-size: 30px;
+    }
+
+    nav .container .dark-mode{
+        display: none;
+    }
+
+    nav .container .nav-links ul{
+        display: none;
+        gap: 30px;
+    }
+
+    nav .container .nav-links{
+        position: relative;
+    }
+
+    nav .nav-links:hover ul{
+        position: absolute;
+        right: -48px;
+        top: 100%;
+        text-align: center;
+        background-color: #171717;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* sec1-home */
+
+    .sec1-home .container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+        padding: 15px 0;
+        margin-top: 89.2px;
+    }
+
+    .sec1-home .container .sec1-content {
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sec1-home .container .sec1-content .content-btns {
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .sec1-home .container .sec1-img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* sec2-chefs */
+
+    .sec2-chefs .sec2-cards {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .sec2-chefs .sec2-cards .card {
+        width: 80%;
+    }
+
+    /* sec3-gallery */
+
+    .sec3-gallery .gallery-photos {
+        height: unset;
+    }
+
+    .sec3-gallery .gallery-photos .photo {
+        width: 70%;
+    }
+
+    /* sec4-contact */
+
+    .sec4-contact .details {
+        flex-direction: column;
+    }
+
+    .sec4-contact .details .address,
+    .sec4-contact .details .email,
+    .sec4-contact .details .phone,
+    .sec4-contact .details .opening-hours{
+        width: 100%;
+    }
+
+    .sec4-contact .details .address .address-informations,
+    .sec4-contact .details .email .email-informations,
+    .sec4-contact .details .phone .phone-informations,
+    .sec4-contact .details .opening-hours .opening-informations{
+        width: 65%;
+    }
+
+    .sec4-contact form .name-email {
+        flex-direction: column;
+    }
+
+    .sec4-contact form .name-email input:first-child,
+    .sec4-contact form .name-email input:last-child {
+        width: 100%;
+    }
+
+    /* footer */
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer .about {
+        width: 100%;
+    }
+
+    footer .subscribe {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer .subscribe .subscribe-form{
+        flex-direction: row;
+    }
+
+    footer .subscribe .subscribe-form input {
+        width: calc(70% - 5px);
+    }
+
+    footer .subscribe .subscribe-form button {
+        width: 30%;
+        padding: 10px;
+    }
+
+    footer .contact-ways {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 767px) and (max-width : 991px){
+
+    /* navbar */
+    nav .nav-links .menu{
+        display: block;
+        width: 100%;
+    }
+
+    nav .nav-links .menu i{
+        font-size: 30px;
+    }
+
+    nav .container .dark-mode{
+        display: none;
+    }
+
+    nav .container .nav-links ul{
+        display: none;
+        gap: 30px;
+    }
+
+    nav .container .nav-links{
+        position: relative;
+    }
+
+    nav .nav-links:hover ul{
+        position: absolute;
+        right: -48px;
+        top: 100%;
+        text-align: center;
+        background-color: #171717;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* sec1-home */
+
+    .sec1-home .container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+        padding: 15px 0;
+        margin-top: 89.2px;
+    }
+
+    .sec1-home .container .sec1-content {
+        width: 80%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sec1-home .container .sec1-content .content-btns {
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .sec1-home .container .sec1-img {
+        width: 70%;
+        margin-top: 15px;
+    }
+
+    /* sec2-chefs */
+
+    .sec2-chefs .sec2-cards {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sec2-chefs .sec2-cards .card{
+        flex-basis: 45%;
+    }
+
+
+    /* sec3-gallery */
+
+    .sec3-gallery .gallery-photos {
+        height: 1405px;
+    }
+
+    .sec3-gallery .gallery-photos .photo {
+        width: 337px;
+    }
+
+    /* sec4-contact */
+
+    .sec4-contact .details .address .address-informations,
+    .sec4-contact .details .email .email-informations,
+    .sec4-contact .details .phone .phone-informations,
+    .sec4-contact .details .opening-hours .opening-informations{
+        width: 65%;
+    }
+
+    .sec4-contact form .name-email {
+        flex-direction: column;
+    }
+
+    .sec4-contact form .name-email input:first-child,
+    .sec4-contact form .name-email input:last-child {
+        width: 100%;
+    }
+
+    /* footer */
+
+    footer .container {
+        gap: 15px;
+        width: 90%;
+    }
+
+    footer .about {
+        width: calc(55% - 15px);
+    }
+
+    footer .subscribe {
+        width: 100%;
+        margin-top: 30px;
+        order: 2;
+    }
+
+    footer .subscribe .subscribe-form{
+        flex-direction: row;
+    }
+
+    footer .subscribe .subscribe-form input {
+        width: calc(70% - 5px);
+    }
+
+    footer .subscribe .subscribe-form button {
+        width: 30%;
+        padding: 10px;
+    }
+
+    footer .contact-ways {
+        width: 40%;
+        order: 1;
+    }
+}
+
+
+@media screen and (min-width: 991px) and (max-width : 1200px){
+
+    /* sec1-home */
+
+    .sec1-home .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        margin-top: 89.2px;
+        width: 90%;
+    }
+
+    .sec1-home .container .sec1-content {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .sec1-home .container .sec1-img {
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    /* sec2-chefs */
+
+    .sec2-chefs .sec2-cards .card{
+        flex-basis: 32%;
+    }
+
+
+    /* sec3-gallery */
+
+    .sec3-gallery .gallery-photos {
+        height: 950px;
+    }
+
+    .sec3-gallery .gallery-photos .photo {
+        width: 33%;
+    }
+
+    /* sec4-contact */
+
+    .sec4-contact .details .address .address-informations,
+    .sec4-contact .details .email .email-informations,
+    .sec4-contact .details .phone .phone-informations,
+    .sec4-contact .details .opening-hours .opening-informations{
+        width: 65%;
+    }
+
+    .sec4-contact form .name-email input:first-child,
+    .sec4-contact form .name-email input:last-child {
+        width: 100%;
+    }
+
+    /* footer */
+
+    footer .container {
+        gap: 15px;
+        width: 90%;
+    }
+
+    footer .about {
+        width: calc(55% - 15px);
+    }
+
+    footer .subscribe {
+        width: 100%;
+        margin-top: 30px;
+        order: 2;
+    }
+
+    footer .subscribe .subscribe-form{
+        flex-direction: row;
+    }
+
+    footer .subscribe .subscribe-form input {
+        width: calc(70% - 5px);
+    }
+
+    footer .subscribe .subscribe-form button {
+        width: 30%;
+        padding: 10px;
+    }
+
+    footer .contact-ways {
+        width: 40%;
+        order: 1;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .sec3-gallery .gallery-photos {
+        height: 1148px;
+    }
+}
+
+
+@media screen and (min-width: 1400px){
+    .container {
+        width: 1370px;
+    }
+
+    .sec3-gallery .gallery-photos {
+        height: 1225px;
+    }
+}
+
+
+@media screen and (min-width: 1600px){
+    .container {
+        width: 1570px;
+    }
+
+    .sec3-gallery .gallery-photos {
+        height: 1401px;
+    }
+}
+
+
+@media screen and (min-width: 1900px){
+    .container {
+        width: 1870px;
+    }
+
+    .sec3-gallery .gallery-photos {
+        height: 1678px;
+    }
+}
